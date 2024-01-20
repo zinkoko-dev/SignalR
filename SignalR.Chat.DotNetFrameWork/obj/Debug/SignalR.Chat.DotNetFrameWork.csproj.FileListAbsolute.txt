@@ -47,3 +47,4 @@ D:\.NET\workspace\SignalR\SignalR.Chat.DotNetFrameWork\obj\Debug\SignalR.Chat.Do
 D:\.NET\workspace\SignalR\SignalR.Chat.DotNetFrameWork\obj\Debug\SignalR.Chat.DotNetFrameWork.csproj.CopyComplete
 D:\.NET\workspace\SignalR\SignalR.Chat.DotNetFrameWork\obj\Debug\SignalR.Chat.DotNetFrameWork.dll
 D:\.NET\workspace\SignalR\SignalR.Chat.DotNetFrameWork\obj\Debug\SignalR.Chat.DotNetFrameWork.pdb
+D:\.NET\workspace\SignalR\SignalR.Chat.DotNetFrameWork\obj\Debug\SignalR.Chat.DotNetFrameWork.csproj.AssemblyReference.cache

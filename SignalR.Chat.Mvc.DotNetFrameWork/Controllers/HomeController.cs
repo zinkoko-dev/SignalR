@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNet.SignalR;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,6 +9,15 @@ namespace SignalR.Chat.Mvc.DotNetFrameWork.Controllers
 {
     public class HomeController : Controller
     {
+
+        private readonly IHubContext _chatHubContext;
+
+        public HomeController()
+        {
+            // Get a reference to the ChatHub context
+            _chatHubContext = GlobalHost.ConnectionManager.GetHubContext<ChatHub>();
+        }
+
         public ActionResult Index()
         {
             return View();
